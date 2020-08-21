@@ -37,4 +37,40 @@ router.post("/", async (req, res, next) => {
     }
 })
 
+router.put("/:id", async (req, res, next) => {
+    try {
+        await db("cars")
+        .update({
+            VIN: req.body.VIN,
+            Make: req.body.Make,
+            Model: req.body.Model,
+            Mileage: req.body.Mileage,
+            TransmissionType: req.body.TransmissionType,
+            Title: req.body.Title
+        })
+        .where("id", req.params.id)
+
+        const car = await db("cars")
+        .where("id", req.params.id)
+        .first()
+
+        res.json(car)
+    }catch (err) {
+        next(err)
+    }
+})
+
+router.delete("/:id", async(req, res, next) => {
+    try {
+        await db("cars").where("id", req.params.id)
+        .del()
+
+        res.status(200).json({
+            message: "The selected car has been deleted from the database."
+        })
+    }catch (err) {
+        next(err)
+    }
+})
+
 module.exports = router
