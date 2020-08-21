@@ -7,7 +7,7 @@ exports.seed = async function(knex) {
     {VIN: 46318185, Make: "Dodge", Model: "Caravan", Mileage: 2446518},
     {VIN: 16130241528, Make: "Ford", Model: "F-Series", Mileage: 362270},
     {VIN: 22380610, Make: "Fillmore", Model: "Fillmore", Mileage: 9635024},
-    {VIN: 18119727, Make: "Chevrolet", Model: "Cavalier", Mileage: "99-4652081"},
+    {VIN: 18119727, Make: "Chevrolet", Model: "Cavalier", Mileage: 4652081},
     {VIN: 242414200, Make: "Lexus", Model: "LX", Mileage: 0283189},
     {VIN: 7285751, Make: "Hyundai", Model: "XG350", Mileage: 678024},
     {VIN: 4257255892, Make: "Oldsmobile", Model: "Intrigue", Mileage: 6539235},
