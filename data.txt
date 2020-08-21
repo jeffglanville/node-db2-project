@@ -1,3 +1,4 @@
+car seed data 
 [{"VIN":"5FNYF3H48FB996524","Make":"Volvo","Model":"S40","Mileage":8137},
 {"VIN":"WBA1J7C56FV493516","Make":"Mitsubishi","Model":"Pajero","Mileage":25981},
 {"VIN":"WUARL48HX6K324573","Make":"Chevrolet","Model":"Venture","Mileage":18154},
@@ -8,3 +9,18 @@
 {"VIN":"NM0AE8F74E1014121","Make":"Volkswagen","Model":"Rabbit","Mileage":33392},
 {"VIN":"1C4RDJAG6EC978196","Make":"Mitsubishi","Model":"Eclipse","Mileage":24323},
 {"VIN":"19UUA76688A872761","Make":"Audi","Model":"RS6","Mileage":21678}]
+
+sales seed data
+
+[
+{RetailPrice: $18134, ManufacturersPrice: $6058, SoldBy: "Berny Limming"},
+{RetailPrice: $17361, ManufacturersPrice: $3042, SoldBy: "Inesita Isac"},
+{RetailPrice: $16712, ManufacturersPrice: $13597, SoldBy: "Cordy Douty"},
+{RetailPrice: $23741, ManufacturersPrice: $10119, SoldBy: "Amble Colnet"},
+{RetailPrice: $17484, ManufacturersPrice: $10778, SoldBy: "Eolande Roset"},
+{RetailPrice: $18729, ManufacturersPrice: $5244, SoldBy: "Pris Nibley"},
+{RetailPrice: $11009, ManufacturersPrice: $7992, SoldBy: "Kalie Trassler"},
+{RetailPrice: $13981, ManufacturersPrice: $4872, SoldBy: "Flint Petri"},
+{RetailPrice: $12178, ManufacturersPrice: $7613, SoldBy: "Elvera Senechell"},
+{RetailPrice: $17946, ManufacturersPrice: $13836, SoldBy: "Rorke Norval"}
+]
